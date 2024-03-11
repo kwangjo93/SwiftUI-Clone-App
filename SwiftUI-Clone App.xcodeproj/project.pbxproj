@@ -51,10 +51,10 @@
 		F99CB3BF2B9EBDEA000D7671 /* SwiftUI-Clone App */ = {
 			isa = PBXGroup;
 			children = (
-				F99CB3C02B9EBDEA000D7671 /* SwiftUI_Clone_AppApp.swift */,
-				F99CB3C22B9EBDEA000D7671 /* ContentView.swift */,
 				F99CB3C42B9EBDEB000D7671 /* Assets.xcassets */,
 				F99CB3C62B9EBDEB000D7671 /* Preview Content */,
+				F99CB3CE2B9EBE52000D7671 /* App */,
+				F99CB3CF2B9EBE68000D7671 /* New Group */,
 			);
 			path = "SwiftUI-Clone App";
 			sourceTree = "<group>";
@@ -65,6 +65,22 @@
 				F99CB3C72B9EBDEB000D7671 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F99CB3CE2B9EBE52000D7671 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F99CB3C02B9EBDEA000D7671 /* SwiftUI_Clone_AppApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F99CB3CF2B9EBE68000D7671 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				F99CB3C22B9EBDEA000D7671 /* ContentView.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
