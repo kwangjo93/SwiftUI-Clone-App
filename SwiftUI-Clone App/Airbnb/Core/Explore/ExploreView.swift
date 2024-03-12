@@ -25,7 +25,8 @@ struct ExploreView: View {
                     .padding()
                 }//ScrollView
                 .navigationDestination(for: Int.self) { listing in
-                    Text("Listing detail View...")
+                    ListingDetailView()
+                        .navigationBarBackButtonHidden()
                 }
             }//VStack
         }//NavigationStack
