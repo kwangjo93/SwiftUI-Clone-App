@@ -17,6 +17,7 @@
 		F99CB3E42BA01F6E000D7671 /* SearchAndFilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB3E32BA01F6E000D7671 /* SearchAndFilterBar.swift */; };
 		F99CB3E62BA02AE3000D7671 /* ListingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB3E52BA02AE3000D7671 /* ListingDetailView.swift */; };
 		F99CB3E92BA02E3D000D7671 /* ListingImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB3E82BA02E3D000D7671 /* ListingImageCarouselView.swift */; };
+		F99CB3EB2BA165FA000D7671 /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB3EA2BA165FA000D7671 /* DestinationSearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		F99CB3E32BA01F6E000D7671 /* SearchAndFilterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndFilterBar.swift; sourceTree = "<group>"; };
 		F99CB3E52BA02AE3000D7671 /* ListingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingDetailView.swift; sourceTree = "<group>"; };
 		F99CB3E82BA02E3D000D7671 /* ListingImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingImageCarouselView.swift; sourceTree = "<group>"; };
+		F99CB3EA2BA165FA000D7671 /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				F99CB3DF2B9ED483000D7671 /* ExploreView.swift */,
+				F99CB3EA2BA165FA000D7671 /* DestinationSearchView.swift */,
 				F99CB3E32BA01F6E000D7671 /* SearchAndFilterBar.swift */,
 			);
 			path = Explore;
@@ -280,6 +283,7 @@
 				F99CB3E42BA01F6E000D7671 /* SearchAndFilterBar.swift in Sources */,
 				F99CB3E22B9ED58C000D7671 /* ListingItemView.swift in Sources */,
 				F99CB3C32B9EBDEA000D7671 /* ContentView.swift in Sources */,
+				F99CB3EB2BA165FA000D7671 /* DestinationSearchView.swift in Sources */,
 				F99CB3E02B9ED483000D7671 /* ExploreView.swift in Sources */,
 				F99CB3C12B9EBDEA000D7671 /* SwiftUI_Clone_AppApp.swift in Sources */,
 				F99CB3E92BA02E3D000D7671 /* ListingImageCarouselView.swift in Sources */,

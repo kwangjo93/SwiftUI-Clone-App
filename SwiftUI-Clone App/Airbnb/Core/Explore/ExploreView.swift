@@ -8,27 +8,38 @@
 import SwiftUI
 
 struct ExploreView: View {
+    @State private var showDestinationSearchView = false
+    
     var body: some View {
         NavigationStack {
-            VStack {
-                SearchAndFilterBar()
-                ScrollView {
-                    LazyVStack(spacing: 16) {
-                        ForEach(0 ... 10, id: \.self) { listing in
-                            NavigationLink(value: listing) {
-                                ListingItemView()
-                                    .frame(height: 400)
-                                    .clipShape(RoundedRectangle(cornerRadius: 10))
+            if showDestinationSearchView {
+                DestinationSearchView(show: $showDestinationSearchView)
+            } else {
+                VStack {
+                    SearchAndFilterBar()
+                        .onTapGesture {
+                            withAnimation(.snappy) {
+                                showDestinationSearchView.toggle()
                             }
                         }
-                    }//LazyVStack
-                    .padding()
-                }//ScrollView
-                .navigationDestination(for: Int.self) { listing in
-                    ListingDetailView()
-                        .navigationBarBackButtonHidden()
-                }
-            }//VStack
+                    ScrollView {
+                        LazyVStack(spacing: 16) {
+                            ForEach(0 ... 10, id: \.self) { listing in
+                                NavigationLink(value: listing) {
+                                    ListingItemView()
+                                        .frame(height: 400)
+                                        .clipShape(RoundedRectangle(cornerRadius: 10))
+                                }
+                            }
+                        }//LazyVStack
+                        .padding()
+                    }//ScrollView
+                    .navigationDestination(for: Int.self) { listing in
+                        ListingDetailView()
+                            .navigationBarBackButtonHidden()
+                    }
+                }//VStack
+            }
         }//NavigationStack
     }
 }
