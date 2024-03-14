@@ -26,6 +26,7 @@
 		F99CB3F92BA2D062000D7671 /* DeveloperPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB3F82BA2D062000D7671 /* DeveloperPreview.swift */; };
 		F99CB3FE2BA2D97D000D7671 /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB3FD2BA2D97D000D7671 /* ExploreViewModel.swift */; };
 		F99CB4002BA2D9AE000D7671 /* ExploreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB3FF2BA2D9AE000D7671 /* ExploreService.swift */; };
+		F99CB4022BA2E2E2000D7671 /* Regions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB4012BA2E2E2000D7671 /* Regions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		F99CB3F82BA2D062000D7671 /* DeveloperPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperPreview.swift; sourceTree = "<group>"; };
 		F99CB3FD2BA2D97D000D7671 /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
 		F99CB3FF2BA2D9AE000D7671 /* ExploreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreService.swift; sourceTree = "<group>"; };
+		F99CB4012BA2E2E2000D7671 /* Regions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				F99CB3F82BA2D062000D7671 /* DeveloperPreview.swift */,
+				F99CB4012BA2E2E2000D7671 /* Regions.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -355,6 +358,7 @@
 				F99CB3F72BA2C989000D7671 /* Listing.swift in Sources */,
 				F99CB3C32B9EBDEA000D7671 /* ContentView.swift in Sources */,
 				F99CB3EB2BA165FA000D7671 /* DestinationSearchView.swift in Sources */,
+				F99CB4022BA2E2E2000D7671 /* Regions.swift in Sources */,
 				F99CB3FE2BA2D97D000D7671 /* ExploreViewModel.swift in Sources */,
 				F99CB3E02B9ED483000D7671 /* ExploreView.swift in Sources */,
 				F99CB3C12B9EBDEA000D7671 /* SwiftUI_Clone_AppApp.swift in Sources */,
