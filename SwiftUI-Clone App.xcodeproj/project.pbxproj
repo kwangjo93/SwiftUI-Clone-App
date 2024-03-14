@@ -24,6 +24,8 @@
 		F99CB3F32BA2C64A000D7671 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB3F22BA2C64A000D7671 /* MainTabView.swift */; };
 		F99CB3F72BA2C989000D7671 /* Listing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB3F62BA2C989000D7671 /* Listing.swift */; };
 		F99CB3F92BA2D062000D7671 /* DeveloperPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB3F82BA2D062000D7671 /* DeveloperPreview.swift */; };
+		F99CB3FE2BA2D97D000D7671 /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB3FD2BA2D97D000D7671 /* ExploreViewModel.swift */; };
+		F99CB4002BA2D9AE000D7671 /* ExploreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB3FF2BA2D9AE000D7671 /* ExploreService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 		F99CB3F22BA2C64A000D7671 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		F99CB3F62BA2C989000D7671 /* Listing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listing.swift; sourceTree = "<group>"; };
 		F99CB3F82BA2D062000D7671 /* DeveloperPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperPreview.swift; sourceTree = "<group>"; };
+		F99CB3FD2BA2D97D000D7671 /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
+		F99CB3FF2BA2D9AE000D7671 /* ExploreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,9 +166,9 @@
 		F99CB3D82B9ED386000D7671 /* Explore */ = {
 			isa = PBXGroup;
 			children = (
-				F99CB3DF2B9ED483000D7671 /* ExploreView.swift */,
-				F99CB3EA2BA165FA000D7671 /* DestinationSearchView.swift */,
-				F99CB3E32BA01F6E000D7671 /* SearchAndFilterBar.swift */,
+				F99CB3FC2BA2D959000D7671 /* Service */,
+				F99CB3FB2BA2D958000D7671 /* View */,
+				F99CB3FA2BA2D957000D7671 /* ViewModel */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -242,6 +246,32 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		F99CB3FA2BA2D957000D7671 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F99CB3FD2BA2D97D000D7671 /* ExploreViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F99CB3FB2BA2D958000D7671 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F99CB3DF2B9ED483000D7671 /* ExploreView.swift */,
+				F99CB3EA2BA165FA000D7671 /* DestinationSearchView.swift */,
+				F99CB3E32BA01F6E000D7671 /* SearchAndFilterBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F99CB3FC2BA2D959000D7671 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F99CB3FF2BA2D9AE000D7671 /* ExploreService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -315,6 +345,7 @@
 				F99CB3E62BA02AE3000D7671 /* ListingDetailView.swift in Sources */,
 				F99CB3EF2BA2C45A000D7671 /* ProfileOptionRowView.swift in Sources */,
 				F99CB3D72B9ED363000D7671 /* Airbnb.swift in Sources */,
+				F99CB4002BA2D9AE000D7671 /* ExploreService.swift in Sources */,
 				F99CB3F12BA2C520000D7671 /* WishlistsView.swift in Sources */,
 				F99CB3ED2BA2C322000D7671 /* ProfileView.swift in Sources */,
 				F99CB3F92BA2D062000D7671 /* DeveloperPreview.swift in Sources */,
@@ -324,6 +355,7 @@
 				F99CB3F72BA2C989000D7671 /* Listing.swift in Sources */,
 				F99CB3C32B9EBDEA000D7671 /* ContentView.swift in Sources */,
 				F99CB3EB2BA165FA000D7671 /* DestinationSearchView.swift in Sources */,
+				F99CB3FE2BA2D97D000D7671 /* ExploreViewModel.swift in Sources */,
 				F99CB3E02B9ED483000D7671 /* ExploreView.swift in Sources */,
 				F99CB3C12B9EBDEA000D7671 /* SwiftUI_Clone_AppApp.swift in Sources */,
 				F99CB3E92BA02E3D000D7671 /* ListingImageCarouselView.swift in Sources */,
