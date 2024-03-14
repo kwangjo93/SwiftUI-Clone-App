@@ -18,6 +18,10 @@
 		F99CB3E62BA02AE3000D7671 /* ListingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB3E52BA02AE3000D7671 /* ListingDetailView.swift */; };
 		F99CB3E92BA02E3D000D7671 /* ListingImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB3E82BA02E3D000D7671 /* ListingImageCarouselView.swift */; };
 		F99CB3EB2BA165FA000D7671 /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB3EA2BA165FA000D7671 /* DestinationSearchView.swift */; };
+		F99CB3ED2BA2C322000D7671 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB3EC2BA2C322000D7671 /* ProfileView.swift */; };
+		F99CB3EF2BA2C45A000D7671 /* ProfileOptionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB3EE2BA2C45A000D7671 /* ProfileOptionRowView.swift */; };
+		F99CB3F12BA2C520000D7671 /* WishlistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB3F02BA2C520000D7671 /* WishlistsView.swift */; };
+		F99CB3F32BA2C64A000D7671 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB3F22BA2C64A000D7671 /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,10 @@
 		F99CB3E52BA02AE3000D7671 /* ListingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingDetailView.swift; sourceTree = "<group>"; };
 		F99CB3E82BA02E3D000D7671 /* ListingImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingImageCarouselView.swift; sourceTree = "<group>"; };
 		F99CB3EA2BA165FA000D7671 /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
+		F99CB3EC2BA2C322000D7671 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F99CB3EE2BA2C45A000D7671 /* ProfileOptionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileOptionRowView.swift; sourceTree = "<group>"; };
+		F99CB3F02BA2C520000D7671 /* WishlistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistsView.swift; sourceTree = "<group>"; };
+		F99CB3F22BA2C64A000D7671 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +183,8 @@
 		F99CB3DB2B9ED38D000D7671 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				F99CB3EC2BA2C322000D7671 /* ProfileView.swift */,
+				F99CB3EE2BA2C45A000D7671 /* ProfileOptionRowView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -189,6 +199,7 @@
 		F99CB3DD2B9ED395000D7671 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				F99CB3F22BA2C64A000D7671 /* MainTabView.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -196,6 +207,7 @@
 		F99CB3DE2B9ED3C4000D7671 /* Wishlists */ = {
 			isa = PBXGroup;
 			children = (
+				F99CB3F02BA2C520000D7671 /* WishlistsView.swift */,
 			);
 			path = Wishlists;
 			sourceTree = "<group>";
@@ -279,9 +291,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F99CB3E62BA02AE3000D7671 /* ListingDetailView.swift in Sources */,
+				F99CB3EF2BA2C45A000D7671 /* ProfileOptionRowView.swift in Sources */,
 				F99CB3D72B9ED363000D7671 /* Airbnb.swift in Sources */,
+				F99CB3F12BA2C520000D7671 /* WishlistsView.swift in Sources */,
+				F99CB3ED2BA2C322000D7671 /* ProfileView.swift in Sources */,
 				F99CB3E42BA01F6E000D7671 /* SearchAndFilterBar.swift in Sources */,
 				F99CB3E22B9ED58C000D7671 /* ListingItemView.swift in Sources */,
+				F99CB3F32BA2C64A000D7671 /* MainTabView.swift in Sources */,
 				F99CB3C32B9EBDEA000D7671 /* ContentView.swift in Sources */,
 				F99CB3EB2BA165FA000D7671 /* DestinationSearchView.swift in Sources */,
 				F99CB3E02B9ED483000D7671 /* ExploreView.swift in Sources */,
