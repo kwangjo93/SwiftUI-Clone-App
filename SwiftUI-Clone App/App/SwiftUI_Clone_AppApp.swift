@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_Clone_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Airbnb()
         }
     }
 }
