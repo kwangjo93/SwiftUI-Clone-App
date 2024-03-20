@@ -35,6 +35,10 @@
 		F99CB4212BAA7DD3000D7671 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB4202BAA7DD3000D7671 /* UserCell.swift */; };
 		F99CB4232BAA8295000D7671 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB4222BAA8295000D7671 /* NotificationsView.swift */; };
 		F99CB4252BAA829E000D7671 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB4242BAA829E000D7671 /* NotificationCell.swift */; };
+		F99CB4272BAA84AB000D7671 /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB4262BAA84AB000D7671 /* CurrentUserProfileView.swift */; };
+		F99CB4292BAA84D8000D7671 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB4282BAA84D8000D7671 /* ProfileHeaderView.swift */; };
+		F99CB42B2BAA84E4000D7671 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB42A2BAA84E4000D7671 /* PostGridView.swift */; };
+		F99CB42F2BAA86AF000D7671 /* UserStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB42E2BAA86AF000D7671 /* UserStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +71,10 @@
 		F99CB4202BAA7DD3000D7671 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		F99CB4222BAA8295000D7671 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		F99CB4242BAA829E000D7671 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		F99CB4262BAA84AB000D7671 /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
+		F99CB4282BAA84D8000D7671 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		F99CB42A2BAA84E4000D7671 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
+		F99CB42E2BAA86AF000D7671 /* UserStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserStackView.swift; path = ../../../../../../../UserStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -393,6 +401,8 @@
 		F99CB4122BAA713E000D7671 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				F99CB42C2BAA8668000D7671 /* Components */,
+				F99CB42D2BAA866F000D7671 /* View */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -434,6 +444,24 @@
 			children = (
 			);
 			path = Authentication;
+			sourceTree = "<group>";
+		};
+		F99CB42C2BAA8668000D7671 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F99CB4282BAA84D8000D7671 /* ProfileHeaderView.swift */,
+				F99CB42A2BAA84E4000D7671 /* PostGridView.swift */,
+				F99CB42E2BAA86AF000D7671 /* UserStackView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F99CB42D2BAA866F000D7671 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F99CB4262BAA84AB000D7671 /* CurrentUserProfileView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -514,10 +542,13 @@
 				F99CB3F12BA2C520000D7671 /* WishlistsView.swift in Sources */,
 				F99CB3ED2BA2C322000D7671 /* ProfileView.swift in Sources */,
 				F99CB3F92BA2D062000D7671 /* DeveloperPreview.swift in Sources */,
+				F99CB4272BAA84AB000D7671 /* CurrentUserProfileView.swift in Sources */,
 				F99CB41F2BAA7DAF000D7671 /* ExploreTicView.swift in Sources */,
 				F99CB4212BAA7DD3000D7671 /* UserCell.swift in Sources */,
+				F99CB4292BAA84D8000D7671 /* ProfileHeaderView.swift in Sources */,
 				F99CB41B2BAA7640000D7671 /* FeedView.swift in Sources */,
 				F99CB3E42BA01F6E000D7671 /* SearchAndFilterBar.swift in Sources */,
+				F99CB42F2BAA86AF000D7671 /* UserStackView.swift in Sources */,
 				F99CB3E22B9ED58C000D7671 /* ListingItemView.swift in Sources */,
 				F99CB3F32BA2C64A000D7671 /* MainTabView.swift in Sources */,
 				F99CB3F72BA2C989000D7671 /* Listing.swift in Sources */,
@@ -526,6 +557,7 @@
 				F99CB4232BAA8295000D7671 /* NotificationsView.swift in Sources */,
 				F99CB40D2BAA7113000D7671 /* TikTokApp.swift in Sources */,
 				F99CB41D2BAA7770000D7671 /* FeedCell.swift in Sources */,
+				F99CB42B2BAA84E4000D7671 /* PostGridView.swift in Sources */,
 				F99CB4022BA2E2E2000D7671 /* Regions.swift in Sources */,
 				F99CB3FE2BA2D97D000D7671 /* ExploreViewModel.swift in Sources */,
 				F99CB3E02B9ED483000D7671 /* ExploreView.swift in Sources */,
