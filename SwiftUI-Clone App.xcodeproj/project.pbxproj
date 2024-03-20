@@ -11,6 +11,12 @@
 		F918017B2BAABF7C007A4463 /* WheelPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F918017A2BAABF7C007A4463 /* WheelPicker.swift */; };
 		F91801812BAAD034007A4463 /* CardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91801802BAAD034007A4463 /* CardItem.swift */; };
 		F91801832BAAD0D1007A4463 /* CardContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91801822BAAD0D1007A4463 /* CardContentView.swift */; };
+		F91801882BAB142C007A4463 /* YouTubeTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91801872BAB142C007A4463 /* YouTubeTab.swift */; };
+		F918018A2BAB14B0007A4463 /* YouTubeHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91801892BAB14B0007A4463 /* YouTubeHome.swift */; };
+		F918018C2BAB159C007A4463 /* YouTubeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F918018B2BAB159C007A4463 /* YouTubeApp.swift */; };
+		F918018E2BAB19AE007A4463 /* PlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F918018D2BAB19AE007A4463 /* PlayerItem.swift */; };
+		F91801902BAB1D26007A4463 /* PlayerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F918018F2BAB1D26007A4463 /* PlayerConfig.swift */; };
+		F91801922BAB1E4E007A4463 /* MiniPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91801912BAB1E4E007A4463 /* MiniPlayerView.swift */; };
 		F99CB3C12B9EBDEA000D7671 /* SwiftUI_Clone_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB3C02B9EBDEA000D7671 /* SwiftUI_Clone_AppApp.swift */; };
 		F99CB3C32B9EBDEA000D7671 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB3C22B9EBDEA000D7671 /* ContentView.swift */; };
 		F99CB3C52B9EBDEB000D7671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F99CB3C42B9EBDEB000D7671 /* Assets.xcassets */; };
@@ -53,6 +59,12 @@
 		F918017A2BAABF7C007A4463 /* WheelPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelPicker.swift; sourceTree = "<group>"; };
 		F91801802BAAD034007A4463 /* CardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardItem.swift; sourceTree = "<group>"; };
 		F91801822BAAD0D1007A4463 /* CardContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardContentView.swift; sourceTree = "<group>"; };
+		F91801872BAB142C007A4463 /* YouTubeTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeTab.swift; sourceTree = "<group>"; };
+		F91801892BAB14B0007A4463 /* YouTubeHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeHome.swift; sourceTree = "<group>"; };
+		F918018B2BAB159C007A4463 /* YouTubeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeApp.swift; sourceTree = "<group>"; };
+		F918018D2BAB19AE007A4463 /* PlayerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerItem.swift; sourceTree = "<group>"; };
+		F918018F2BAB1D26007A4463 /* PlayerConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerConfig.swift; sourceTree = "<group>"; };
+		F91801912BAB1E4E007A4463 /* MiniPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayerView.swift; sourceTree = "<group>"; };
 		F99CB3BD2B9EBDEA000D7671 /* SwiftUI-Clone App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Clone App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F99CB3C02B9EBDEA000D7671 /* SwiftUI_Clone_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Clone_AppApp.swift; sourceTree = "<group>"; };
 		F99CB3C22B9EBDEA000D7671 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -128,6 +140,35 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		F91801842BAB13E4007A4463 /* ComplexUI */ = {
+			isa = PBXGroup;
+			children = (
+				F918018B2BAB159C007A4463 /* YouTubeApp.swift */,
+				F91801862BAB140E007A4463 /* Model */,
+				F91801852BAB1409007A4463 /* View */,
+			);
+			path = ComplexUI;
+			sourceTree = "<group>";
+		};
+		F91801852BAB1409007A4463 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F91801892BAB14B0007A4463 /* YouTubeHome.swift */,
+				F91801912BAB1E4E007A4463 /* MiniPlayerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F91801862BAB140E007A4463 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F91801872BAB142C007A4463 /* YouTubeTab.swift */,
+				F918018D2BAB19AE007A4463 /* PlayerItem.swift */,
+				F918018F2BAB1D26007A4463 /* PlayerConfig.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F99CB3B42B9EBDEA000D7671 = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +195,7 @@
 				F99CB4042BAA704F000D7671 /* TikTok */,
 				F918017E2BAACFD4007A4463 /* StackCard */,
 				F91801772BAABF38007A4463 /* WhellPickerApp */,
+				F91801842BAB13E4007A4463 /* ComplexUI */,
 			);
 			path = "SwiftUI-Clone App";
 			sourceTree = "<group>";
@@ -608,6 +650,7 @@
 				F99CB3D72B9ED363000D7671 /* Airbnb.swift in Sources */,
 				F91801792BAABF55007A4463 /* WheelPickerApp.swift in Sources */,
 				F99CB4002BA2D9AE000D7671 /* ExploreService.swift in Sources */,
+				F91801882BAB142C007A4463 /* YouTubeTab.swift in Sources */,
 				F99CB4252BAA829E000D7671 /* NotificationCell.swift in Sources */,
 				F99CB3F12BA2C520000D7671 /* WishlistsView.swift in Sources */,
 				F99CB3ED2BA2C322000D7671 /* ProfileView.swift in Sources */,
@@ -616,12 +659,16 @@
 				F99CB41F2BAA7DAF000D7671 /* ExploreTicView.swift in Sources */,
 				F91801832BAAD0D1007A4463 /* CardContentView.swift in Sources */,
 				F99CB4212BAA7DD3000D7671 /* UserCell.swift in Sources */,
+				F918018A2BAB14B0007A4463 /* YouTubeHome.swift in Sources */,
 				F99CB4292BAA84D8000D7671 /* ProfileHeaderView.swift in Sources */,
 				F99CB41B2BAA7640000D7671 /* FeedView.swift in Sources */,
+				F918018C2BAB159C007A4463 /* YouTubeApp.swift in Sources */,
+				F918018E2BAB19AE007A4463 /* PlayerItem.swift in Sources */,
 				F99CB3E42BA01F6E000D7671 /* SearchAndFilterBar.swift in Sources */,
 				F99CB4362BAAA452000D7671 /* FeedViewModel.swift in Sources */,
 				F99CB42F2BAA86AF000D7671 /* UserStackView.swift in Sources */,
 				F99CB3E22B9ED58C000D7671 /* ListingItemView.swift in Sources */,
+				F91801922BAB1E4E007A4463 /* MiniPlayerView.swift in Sources */,
 				F99CB3F32BA2C64A000D7671 /* MainTabView.swift in Sources */,
 				F99CB3F72BA2C989000D7671 /* Listing.swift in Sources */,
 				F99CB3C32B9EBDEA000D7671 /* ContentView.swift in Sources */,
@@ -633,6 +680,7 @@
 				F99CB41D2BAA7770000D7671 /* FeedCell.swift in Sources */,
 				F99CB42B2BAA84E4000D7671 /* PostGridView.swift in Sources */,
 				F91801812BAAD034007A4463 /* CardItem.swift in Sources */,
+				F91801902BAB1D26007A4463 /* PlayerConfig.swift in Sources */,
 				F99CB4382BAAA7B8000D7671 /* CustomVideoPlayer.swift in Sources */,
 				F99CB4022BA2E2E2000D7671 /* Regions.swift in Sources */,
 				F99CB3FE2BA2D97D000D7671 /* ExploreViewModel.swift in Sources */,

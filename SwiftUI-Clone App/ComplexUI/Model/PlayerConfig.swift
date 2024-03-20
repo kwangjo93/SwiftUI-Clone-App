@@ -7,12 +7,17 @@
 
 import SwiftUI
 
-struct PlayerConfig: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct PlayerConfig: Equatable {
+    var position: CGFloat = .zero
+    var lastPosition: CGFloat = .zero
+    var progress: CGFloat = .zero
+    var selectedPlayerItem: PlayerItem?
+    var showMioniPlayer: Bool = false
+    
+    mutating func resetPosition() {
+        position = .zero
+        lastPosition = .zero
+        progress = .zero
     }
 }
 
-#Preview {
-    PlayerConfig()
-}
