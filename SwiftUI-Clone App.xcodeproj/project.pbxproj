@@ -39,6 +39,9 @@
 		F99CB4292BAA84D8000D7671 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB4282BAA84D8000D7671 /* ProfileHeaderView.swift */; };
 		F99CB42B2BAA84E4000D7671 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB42A2BAA84E4000D7671 /* PostGridView.swift */; };
 		F99CB42F2BAA86AF000D7671 /* UserStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB42E2BAA86AF000D7671 /* UserStackView.swift */; };
+		F99CB4312BAAA3EA000D7671 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB4302BAAA3EA000D7671 /* Post.swift */; };
+		F99CB4362BAAA452000D7671 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB4352BAAA452000D7671 /* FeedViewModel.swift */; };
+		F99CB4382BAAA7B8000D7671 /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB4372BAAA7B8000D7671 /* CustomVideoPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +78,9 @@
 		F99CB4282BAA84D8000D7671 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		F99CB42A2BAA84E4000D7671 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
 		F99CB42E2BAA86AF000D7671 /* UserStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserStackView.swift; path = ../../../../../../../UserStackView.swift; sourceTree = "<group>"; };
+		F99CB4302BAAA3EA000D7671 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Post.swift; path = ../../../../../../../Post.swift; sourceTree = "<group>"; };
+		F99CB4352BAAA452000D7671 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		F99CB4372BAAA7B8000D7671 /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -323,6 +329,7 @@
 		F99CB4072BAA7094000D7671 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F99CB4302BAAA3EA000D7671 /* Post.swift */,
 			);
 			name = Model;
 			path = "New Group/New Group/Model";
@@ -419,8 +426,9 @@
 		F99CB4142BAA7141000D7671 /* Feed */ = {
 			isa = PBXGroup;
 			children = (
-				F99CB41A2BAA7640000D7671 /* FeedView.swift */,
-				F99CB41C2BAA7770000D7671 /* FeedCell.swift */,
+				F99CB4342BAAA435000D7671 /* Service */,
+				F99CB4332BAAA42B000D7671 /* View */,
+				F99CB4322BAAA429000D7671 /* ViewModel */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -428,6 +436,7 @@
 		F99CB4152BAA7142000D7671 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				F99CB4372BAAA7B8000D7671 /* CustomVideoPlayer.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -462,6 +471,30 @@
 				F99CB4262BAA84AB000D7671 /* CurrentUserProfileView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		F99CB4322BAAA429000D7671 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F99CB4352BAAA452000D7671 /* FeedViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F99CB4332BAAA42B000D7671 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F99CB41A2BAA7640000D7671 /* FeedView.swift */,
+				F99CB41C2BAA7770000D7671 /* FeedCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F99CB4342BAAA435000D7671 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -548,16 +581,19 @@
 				F99CB4292BAA84D8000D7671 /* ProfileHeaderView.swift in Sources */,
 				F99CB41B2BAA7640000D7671 /* FeedView.swift in Sources */,
 				F99CB3E42BA01F6E000D7671 /* SearchAndFilterBar.swift in Sources */,
+				F99CB4362BAAA452000D7671 /* FeedViewModel.swift in Sources */,
 				F99CB42F2BAA86AF000D7671 /* UserStackView.swift in Sources */,
 				F99CB3E22B9ED58C000D7671 /* ListingItemView.swift in Sources */,
 				F99CB3F32BA2C64A000D7671 /* MainTabView.swift in Sources */,
 				F99CB3F72BA2C989000D7671 /* Listing.swift in Sources */,
 				F99CB3C32B9EBDEA000D7671 /* ContentView.swift in Sources */,
 				F99CB3EB2BA165FA000D7671 /* DestinationSearchView.swift in Sources */,
+				F99CB4312BAAA3EA000D7671 /* Post.swift in Sources */,
 				F99CB4232BAA8295000D7671 /* NotificationsView.swift in Sources */,
 				F99CB40D2BAA7113000D7671 /* TikTokApp.swift in Sources */,
 				F99CB41D2BAA7770000D7671 /* FeedCell.swift in Sources */,
 				F99CB42B2BAA84E4000D7671 /* PostGridView.swift in Sources */,
+				F99CB4382BAAA7B8000D7671 /* CustomVideoPlayer.swift in Sources */,
 				F99CB4022BA2E2E2000D7671 /* Regions.swift in Sources */,
 				F99CB3FE2BA2D97D000D7671 /* ExploreViewModel.swift in Sources */,
 				F99CB3E02B9ED483000D7671 /* ExploreView.swift in Sources */,
@@ -712,9 +748,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "kwangjo93.SwiftUI-Clone-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -741,9 +781,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "kwangjo93.SwiftUI-Clone-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
