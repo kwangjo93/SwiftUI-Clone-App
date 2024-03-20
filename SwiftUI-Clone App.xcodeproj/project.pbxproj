@@ -27,6 +27,10 @@
 		F99CB3FE2BA2D97D000D7671 /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB3FD2BA2D97D000D7671 /* ExploreViewModel.swift */; };
 		F99CB4002BA2D9AE000D7671 /* ExploreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB3FF2BA2D9AE000D7671 /* ExploreService.swift */; };
 		F99CB4022BA2E2E2000D7671 /* Regions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB4012BA2E2E2000D7671 /* Regions.swift */; };
+		F99CB40D2BAA7113000D7671 /* TikTokApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB40C2BAA7113000D7671 /* TikTokApp.swift */; };
+		F99CB4192BAA7204000D7671 /* TicTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB4182BAA7204000D7671 /* TicTabView.swift */; };
+		F99CB41B2BAA7640000D7671 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB41A2BAA7640000D7671 /* FeedView.swift */; };
+		F99CB41D2BAA7770000D7671 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB41C2BAA7770000D7671 /* FeedCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +55,10 @@
 		F99CB3FD2BA2D97D000D7671 /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
 		F99CB3FF2BA2D9AE000D7671 /* ExploreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreService.swift; sourceTree = "<group>"; };
 		F99CB4012BA2E2E2000D7671 /* Regions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regions.swift; sourceTree = "<group>"; };
+		F99CB40C2BAA7113000D7671 /* TikTokApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTokApp.swift; sourceTree = "<group>"; };
+		F99CB4182BAA7204000D7671 /* TicTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTabView.swift; sourceTree = "<group>"; };
+		F99CB41A2BAA7640000D7671 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		F99CB41C2BAA7770000D7671 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +95,7 @@
 				F99CB3C62B9EBDEB000D7671 /* Preview Content */,
 				F99CB3CE2B9EBE52000D7671 /* App */,
 				F99CB3CF2B9EBE68000D7671 /* Airbnb */,
+				F99CB4042BAA704F000D7671 /* TikTok */,
 			);
 			path = "SwiftUI-Clone App";
 			sourceTree = "<group>";
@@ -275,6 +284,146 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
+		F99CB4042BAA704F000D7671 /* TikTok */ = {
+			isa = PBXGroup;
+			children = (
+				F99CB40A2BAA70A1000D7671 /* App */,
+				F99CB4092BAA70A0000D7671 /* Core */,
+				F99CB4082BAA709D000D7671 /* Extension */,
+				F99CB4072BAA7094000D7671 /* Model */,
+				F99CB4052BAA7093000D7671 /* Service */,
+				F99CB40B2BAA70EF000D7671 /* Utils */,
+			);
+			path = TikTok;
+			sourceTree = "<group>";
+		};
+		F99CB4052BAA7093000D7671 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F99CB4072BAA7094000D7671 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = "New Group/New Group/Model";
+			sourceTree = "<group>";
+		};
+		F99CB4082BAA709D000D7671 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F99CB4092BAA70A0000D7671 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F99CB4172BAA7147000D7671 /* Authentication */,
+				F99CB4162BAA7145000D7671 /* Comments */,
+				F99CB4152BAA7142000D7671 /* Components */,
+				F99CB4142BAA7141000D7671 /* Feed */,
+				F99CB4132BAA713F000D7671 /* Notifications */,
+				F99CB4122BAA713E000D7671 /* Profile */,
+				F99CB4112BAA713C000D7671 /* Root */,
+				F99CB40E2BAA7138000D7671 /* Search */,
+				F99CB4102BAA713B000D7671 /* TabBar */,
+				F99CB40F2BAA713A000D7671 /* UploadMeida */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F99CB40A2BAA70A1000D7671 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F99CB40C2BAA7113000D7671 /* TikTokApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F99CB40B2BAA70EF000D7671 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F99CB40E2BAA7138000D7671 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		F99CB40F2BAA713A000D7671 /* UploadMeida */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UploadMeida;
+			sourceTree = "<group>";
+		};
+		F99CB4102BAA713B000D7671 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				F99CB4182BAA7204000D7671 /* TicTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		F99CB4112BAA713C000D7671 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		F99CB4122BAA713E000D7671 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		F99CB4132BAA713F000D7671 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		F99CB4142BAA7141000D7671 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				F99CB41A2BAA7640000D7671 /* FeedView.swift */,
+				F99CB41C2BAA7770000D7671 /* FeedCell.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		F99CB4152BAA7142000D7671 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F99CB4162BAA7145000D7671 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		F99CB4172BAA7147000D7671 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -352,17 +501,21 @@
 				F99CB3F12BA2C520000D7671 /* WishlistsView.swift in Sources */,
 				F99CB3ED2BA2C322000D7671 /* ProfileView.swift in Sources */,
 				F99CB3F92BA2D062000D7671 /* DeveloperPreview.swift in Sources */,
+				F99CB41B2BAA7640000D7671 /* FeedView.swift in Sources */,
 				F99CB3E42BA01F6E000D7671 /* SearchAndFilterBar.swift in Sources */,
 				F99CB3E22B9ED58C000D7671 /* ListingItemView.swift in Sources */,
 				F99CB3F32BA2C64A000D7671 /* MainTabView.swift in Sources */,
 				F99CB3F72BA2C989000D7671 /* Listing.swift in Sources */,
 				F99CB3C32B9EBDEA000D7671 /* ContentView.swift in Sources */,
 				F99CB3EB2BA165FA000D7671 /* DestinationSearchView.swift in Sources */,
+				F99CB40D2BAA7113000D7671 /* TikTokApp.swift in Sources */,
+				F99CB41D2BAA7770000D7671 /* FeedCell.swift in Sources */,
 				F99CB4022BA2E2E2000D7671 /* Regions.swift in Sources */,
 				F99CB3FE2BA2D97D000D7671 /* ExploreViewModel.swift in Sources */,
 				F99CB3E02B9ED483000D7671 /* ExploreView.swift in Sources */,
 				F99CB3C12B9EBDEA000D7671 /* SwiftUI_Clone_AppApp.swift in Sources */,
 				F99CB3E92BA02E3D000D7671 /* ListingImageCarouselView.swift in Sources */,
+				F99CB4192BAA7204000D7671 /* TicTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
