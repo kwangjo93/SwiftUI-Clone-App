@@ -31,6 +31,8 @@
 		F99CB4192BAA7204000D7671 /* TicTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB4182BAA7204000D7671 /* TicTabView.swift */; };
 		F99CB41B2BAA7640000D7671 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB41A2BAA7640000D7671 /* FeedView.swift */; };
 		F99CB41D2BAA7770000D7671 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB41C2BAA7770000D7671 /* FeedCell.swift */; };
+		F99CB41F2BAA7DAF000D7671 /* ExploreTicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB41E2BAA7DAF000D7671 /* ExploreTicView.swift */; };
+		F99CB4212BAA7DD3000D7671 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB4202BAA7DD3000D7671 /* UserCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +61,8 @@
 		F99CB4182BAA7204000D7671 /* TicTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTabView.swift; sourceTree = "<group>"; };
 		F99CB41A2BAA7640000D7671 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		F99CB41C2BAA7770000D7671 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		F99CB41E2BAA7DAF000D7671 /* ExploreTicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreTicView.swift; sourceTree = "<group>"; };
+		F99CB4202BAA7DD3000D7671 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -354,6 +358,8 @@
 		F99CB40E2BAA7138000D7671 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				F99CB41E2BAA7DAF000D7671 /* ExploreTicView.swift */,
+				F99CB4202BAA7DD3000D7671 /* UserCell.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -501,6 +507,8 @@
 				F99CB3F12BA2C520000D7671 /* WishlistsView.swift in Sources */,
 				F99CB3ED2BA2C322000D7671 /* ProfileView.swift in Sources */,
 				F99CB3F92BA2D062000D7671 /* DeveloperPreview.swift in Sources */,
+				F99CB41F2BAA7DAF000D7671 /* ExploreTicView.swift in Sources */,
+				F99CB4212BAA7DD3000D7671 /* UserCell.swift in Sources */,
 				F99CB41B2BAA7640000D7671 /* FeedView.swift in Sources */,
 				F99CB3E42BA01F6E000D7671 /* SearchAndFilterBar.swift in Sources */,
 				F99CB3E22B9ED58C000D7671 /* ListingItemView.swift in Sources */,
