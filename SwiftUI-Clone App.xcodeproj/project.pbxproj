@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F91801792BAABF55007A4463 /* WheelPickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91801782BAABF55007A4463 /* WheelPickerApp.swift */; };
+		F918017B2BAABF7C007A4463 /* WheelPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F918017A2BAABF7C007A4463 /* WheelPicker.swift */; };
+		F91801812BAAD034007A4463 /* CardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91801802BAAD034007A4463 /* CardItem.swift */; };
+		F91801832BAAD0D1007A4463 /* CardContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91801822BAAD0D1007A4463 /* CardContentView.swift */; };
 		F99CB3C12B9EBDEA000D7671 /* SwiftUI_Clone_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB3C02B9EBDEA000D7671 /* SwiftUI_Clone_AppApp.swift */; };
 		F99CB3C32B9EBDEA000D7671 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB3C22B9EBDEA000D7671 /* ContentView.swift */; };
 		F99CB3C52B9EBDEB000D7671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F99CB3C42B9EBDEB000D7671 /* Assets.xcassets */; };
@@ -45,6 +49,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F91801782BAABF55007A4463 /* WheelPickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelPickerApp.swift; sourceTree = "<group>"; };
+		F918017A2BAABF7C007A4463 /* WheelPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelPicker.swift; sourceTree = "<group>"; };
+		F91801802BAAD034007A4463 /* CardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardItem.swift; sourceTree = "<group>"; };
+		F91801822BAAD0D1007A4463 /* CardContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardContentView.swift; sourceTree = "<group>"; };
 		F99CB3BD2B9EBDEA000D7671 /* SwiftUI-Clone App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Clone App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F99CB3C02B9EBDEA000D7671 /* SwiftUI_Clone_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Clone_AppApp.swift; sourceTree = "<group>"; };
 		F99CB3C22B9EBDEA000D7671 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +102,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F91801772BAABF38007A4463 /* WhellPickerApp */ = {
+			isa = PBXGroup;
+			children = (
+				F91801782BAABF55007A4463 /* WheelPickerApp.swift */,
+				F918017A2BAABF7C007A4463 /* WheelPicker.swift */,
+			);
+			path = WhellPickerApp;
+			sourceTree = "<group>";
+		};
+		F918017E2BAACFD4007A4463 /* StackCard */ = {
+			isa = PBXGroup;
+			children = (
+				F918017F2BAAD02B007A4463 /* Model */,
+				F91801822BAAD0D1007A4463 /* CardContentView.swift */,
+			);
+			path = StackCard;
+			sourceTree = "<group>";
+		};
+		F918017F2BAAD02B007A4463 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F91801802BAAD034007A4463 /* CardItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F99CB3B42B9EBDEA000D7671 = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +152,8 @@
 				F99CB3CE2B9EBE52000D7671 /* App */,
 				F99CB3CF2B9EBE68000D7671 /* Airbnb */,
 				F99CB4042BAA704F000D7671 /* TikTok */,
+				F918017E2BAACFD4007A4463 /* StackCard */,
+				F91801772BAABF38007A4463 /* WhellPickerApp */,
 			);
 			path = "SwiftUI-Clone App";
 			sourceTree = "<group>";
@@ -570,6 +606,7 @@
 				F99CB3E62BA02AE3000D7671 /* ListingDetailView.swift in Sources */,
 				F99CB3EF2BA2C45A000D7671 /* ProfileOptionRowView.swift in Sources */,
 				F99CB3D72B9ED363000D7671 /* Airbnb.swift in Sources */,
+				F91801792BAABF55007A4463 /* WheelPickerApp.swift in Sources */,
 				F99CB4002BA2D9AE000D7671 /* ExploreService.swift in Sources */,
 				F99CB4252BAA829E000D7671 /* NotificationCell.swift in Sources */,
 				F99CB3F12BA2C520000D7671 /* WishlistsView.swift in Sources */,
@@ -577,6 +614,7 @@
 				F99CB3F92BA2D062000D7671 /* DeveloperPreview.swift in Sources */,
 				F99CB4272BAA84AB000D7671 /* CurrentUserProfileView.swift in Sources */,
 				F99CB41F2BAA7DAF000D7671 /* ExploreTicView.swift in Sources */,
+				F91801832BAAD0D1007A4463 /* CardContentView.swift in Sources */,
 				F99CB4212BAA7DD3000D7671 /* UserCell.swift in Sources */,
 				F99CB4292BAA84D8000D7671 /* ProfileHeaderView.swift in Sources */,
 				F99CB41B2BAA7640000D7671 /* FeedView.swift in Sources */,
@@ -587,12 +625,14 @@
 				F99CB3F32BA2C64A000D7671 /* MainTabView.swift in Sources */,
 				F99CB3F72BA2C989000D7671 /* Listing.swift in Sources */,
 				F99CB3C32B9EBDEA000D7671 /* ContentView.swift in Sources */,
+				F918017B2BAABF7C007A4463 /* WheelPicker.swift in Sources */,
 				F99CB3EB2BA165FA000D7671 /* DestinationSearchView.swift in Sources */,
 				F99CB4312BAAA3EA000D7671 /* Post.swift in Sources */,
 				F99CB4232BAA8295000D7671 /* NotificationsView.swift in Sources */,
 				F99CB40D2BAA7113000D7671 /* TikTokApp.swift in Sources */,
 				F99CB41D2BAA7770000D7671 /* FeedCell.swift in Sources */,
 				F99CB42B2BAA84E4000D7671 /* PostGridView.swift in Sources */,
+				F91801812BAAD034007A4463 /* CardItem.swift in Sources */,
 				F99CB4382BAAA7B8000D7671 /* CustomVideoPlayer.swift in Sources */,
 				F99CB4022BA2E2E2000D7671 /* Regions.swift in Sources */,
 				F99CB3FE2BA2D97D000D7671 /* ExploreViewModel.swift in Sources */,
