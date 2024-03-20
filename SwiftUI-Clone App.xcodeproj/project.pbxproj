@@ -33,6 +33,8 @@
 		F99CB41D2BAA7770000D7671 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB41C2BAA7770000D7671 /* FeedCell.swift */; };
 		F99CB41F2BAA7DAF000D7671 /* ExploreTicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB41E2BAA7DAF000D7671 /* ExploreTicView.swift */; };
 		F99CB4212BAA7DD3000D7671 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB4202BAA7DD3000D7671 /* UserCell.swift */; };
+		F99CB4232BAA8295000D7671 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB4222BAA8295000D7671 /* NotificationsView.swift */; };
+		F99CB4252BAA829E000D7671 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB4242BAA829E000D7671 /* NotificationCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +65,8 @@
 		F99CB41C2BAA7770000D7671 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		F99CB41E2BAA7DAF000D7671 /* ExploreTicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreTicView.swift; sourceTree = "<group>"; };
 		F99CB4202BAA7DD3000D7671 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		F99CB4222BAA8295000D7671 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		F99CB4242BAA829E000D7671 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -396,6 +400,8 @@
 		F99CB4132BAA713F000D7671 /* Notifications */ = {
 			isa = PBXGroup;
 			children = (
+				F99CB4222BAA8295000D7671 /* NotificationsView.swift */,
+				F99CB4242BAA829E000D7671 /* NotificationCell.swift */,
 			);
 			path = Notifications;
 			sourceTree = "<group>";
@@ -504,6 +510,7 @@
 				F99CB3EF2BA2C45A000D7671 /* ProfileOptionRowView.swift in Sources */,
 				F99CB3D72B9ED363000D7671 /* Airbnb.swift in Sources */,
 				F99CB4002BA2D9AE000D7671 /* ExploreService.swift in Sources */,
+				F99CB4252BAA829E000D7671 /* NotificationCell.swift in Sources */,
 				F99CB3F12BA2C520000D7671 /* WishlistsView.swift in Sources */,
 				F99CB3ED2BA2C322000D7671 /* ProfileView.swift in Sources */,
 				F99CB3F92BA2D062000D7671 /* DeveloperPreview.swift in Sources */,
@@ -516,6 +523,7 @@
 				F99CB3F72BA2C989000D7671 /* Listing.swift in Sources */,
 				F99CB3C32B9EBDEA000D7671 /* ContentView.swift in Sources */,
 				F99CB3EB2BA165FA000D7671 /* DestinationSearchView.swift in Sources */,
+				F99CB4232BAA8295000D7671 /* NotificationsView.swift in Sources */,
 				F99CB40D2BAA7113000D7671 /* TikTokApp.swift in Sources */,
 				F99CB41D2BAA7770000D7671 /* FeedCell.swift in Sources */,
 				F99CB4022BA2E2E2000D7671 /* Regions.swift in Sources */,

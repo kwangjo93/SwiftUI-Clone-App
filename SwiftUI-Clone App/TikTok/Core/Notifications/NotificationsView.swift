@@ -1,5 +1,5 @@
 //
-//  ExploreTicView.swift
+//  NotificationsView.swift
 //  SwiftUI-Clone App
 //
 //  Created by 천광조 on 3/20/24.
@@ -7,17 +7,17 @@
 
 import SwiftUI
 
-struct ExploreTicView: View {
+struct NotificationsView: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                LazyVStack(spacing: 16) {
-                    ForEach(0..<20) { user in
-                        UserCell()
+                LazyVStack(spacing: 24) {
+                    ForEach(0..<10) { notification in
+                        NotificationCell()
                     }
                 }
             }
-            .navigationTitle("Explore")
+            .navigationTitle("Notifications")
             .navigationBarTitleDisplayMode(.inline)
             .padding(.top)
         }
@@ -25,5 +25,5 @@ struct ExploreTicView: View {
 }
 
 #Preview {
-    ExploreTicView()
+    NotificationsView()
 }

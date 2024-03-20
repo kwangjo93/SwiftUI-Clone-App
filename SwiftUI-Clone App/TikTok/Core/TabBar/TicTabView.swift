@@ -36,7 +36,7 @@ struct TicTabView: View {
             Text("Upload Post")
                 .tabItem { Image(systemName: "plus") }
             
-            Text("Notifications")
+            NotificationsView()
                 .tabItem {
                     VStack {
                         Image(systemName: selectedTab == 3 ? "heart.fill" : "heart")
