@@ -20,6 +20,8 @@
 		F91801952BABC1EF007A4463 /* AppleMapTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91801942BABC1EF007A4463 /* AppleMapTab.swift */; };
 		F91801992BABC291007A4463 /* AppleMapContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91801982BABC291007A4463 /* AppleMapContentView.swift */; };
 		F918019B2BABC620007A4463 /* BottomSheetHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F918019A2BABC620007A4463 /* BottomSheetHelper.swift */; };
+		F918019E2BAC0567007A4463 /* StretchSliderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F918019D2BAC0567007A4463 /* StretchSliderApp.swift */; };
+		F91801A02BAC05CD007A4463 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F918019F2BAC05CD007A4463 /* CustomSlider.swift */; };
 		F99CB3C12B9EBDEA000D7671 /* SwiftUI_Clone_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB3C02B9EBDEA000D7671 /* SwiftUI_Clone_AppApp.swift */; };
 		F99CB3C32B9EBDEA000D7671 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB3C22B9EBDEA000D7671 /* ContentView.swift */; };
 		F99CB3C52B9EBDEB000D7671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F99CB3C42B9EBDEB000D7671 /* Assets.xcassets */; };
@@ -71,6 +73,8 @@
 		F91801942BABC1EF007A4463 /* AppleMapTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMapTab.swift; sourceTree = "<group>"; };
 		F91801982BABC291007A4463 /* AppleMapContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMapContentView.swift; sourceTree = "<group>"; };
 		F918019A2BABC620007A4463 /* BottomSheetHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetHelper.swift; sourceTree = "<group>"; };
+		F918019D2BAC0567007A4463 /* StretchSliderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchSliderApp.swift; sourceTree = "<group>"; };
+		F918019F2BAC05CD007A4463 /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
 		F99CB3BD2B9EBDEA000D7671 /* SwiftUI-Clone App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Clone App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F99CB3C02B9EBDEA000D7671 /* SwiftUI_Clone_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Clone_AppApp.swift; sourceTree = "<group>"; };
 		F99CB3C22B9EBDEA000D7671 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -201,6 +205,23 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		F918019C2BAC04C5007A4463 /* StretchySlider */ = {
+			isa = PBXGroup;
+			children = (
+				F918019D2BAC0567007A4463 /* StretchSliderApp.swift */,
+				F91801A12BAC05CF007A4463 /* View */,
+			);
+			path = StretchySlider;
+			sourceTree = "<group>";
+		};
+		F91801A12BAC05CF007A4463 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F918019F2BAC05CD007A4463 /* CustomSlider.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		F99CB3B42B9EBDEA000D7671 = {
 			isa = PBXGroup;
 			children = (
@@ -229,6 +250,7 @@
 				F91801772BAABF38007A4463 /* WhellPickerApp */,
 				F91801842BAB13E4007A4463 /* ComplexUI */,
 				F91801932BABC168007A4463 /* AppleMapBottomSheet */,
+				F918019C2BAC04C5007A4463 /* StretchySlider */,
 			);
 			path = "SwiftUI-Clone App";
 			sourceTree = "<group>";
@@ -712,6 +734,7 @@
 				F91801992BABC291007A4463 /* AppleMapContentView.swift in Sources */,
 				F99CB40D2BAA7113000D7671 /* TikTokApp.swift in Sources */,
 				F99CB41D2BAA7770000D7671 /* FeedCell.swift in Sources */,
+				F918019E2BAC0567007A4463 /* StretchSliderApp.swift in Sources */,
 				F99CB42B2BAA84E4000D7671 /* PostGridView.swift in Sources */,
 				F91801812BAAD034007A4463 /* CardItem.swift in Sources */,
 				F91801902BAB1D26007A4463 /* PlayerConfig.swift in Sources */,
@@ -720,6 +743,7 @@
 				F99CB4022BA2E2E2000D7671 /* Regions.swift in Sources */,
 				F99CB3FE2BA2D97D000D7671 /* ExploreViewModel.swift in Sources */,
 				F99CB3E02B9ED483000D7671 /* ExploreView.swift in Sources */,
+				F91801A02BAC05CD007A4463 /* CustomSlider.swift in Sources */,
 				F99CB3C12B9EBDEA000D7671 /* SwiftUI_Clone_AppApp.swift in Sources */,
 				F99CB3E92BA02E3D000D7671 /* ListingImageCarouselView.swift in Sources */,
 				F99CB4192BAA7204000D7671 /* TicTabView.swift in Sources */,
