@@ -8,8 +8,32 @@
 import SwiftUI
 
 struct MainExpenseTrackerApp: View {
+    //Visibility Status
+    @AppStorage("isFirstTime") private var isFirstTime = true
+    @AppStorage("isAppLockEnabled") private var isAppLockEnabled: Bool = false
+    @AppStorage("lockWhenAppGoesBackground") private var lockWhenAppGoesBackground: Bool = false
+    //Active Tab
+    @State private var activeTab: ExpenseTab = .recents
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView(selection: $activeTab) {
+            Recents()
+                .tag(ExpenseTab.recents)
+                .tabItem { ExpenseTab.recents.tabContent }
+            Search()
+                .tag(ExpenseTab.search)
+                .tabItem { ExpenseTab.search.tabContent }
+            Graphs()
+                .tag(ExpenseTab.charts)
+                .tabItem { ExpenseTab.charts.tabContent }
+            Settings()
+                .tag(ExpenseTab.settings)
+                .tabItem { ExpenseTab.settings.tabContent }
+        }
+        .tint(appTint)
+        .sheet(isPresented: $isFirstTime, content: {
+            IntroScreen()
+                .interactiveDismissDisabled()
+        })
     }
 }
 

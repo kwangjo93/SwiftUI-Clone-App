@@ -7,12 +7,22 @@
 
 import SwiftUI
 
-struct View___Extension: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+// Custom View Extension
+extension View {
+    @ViewBuilder
+    func hSpacing(_ alignment: Alignment) -> some View {
+        self
+            .frame(maxWidth: .infinity, alignment: alignment)
     }
-}
-
-#Preview {
-    View___Extension()
+    
+    @ViewBuilder
+    func vSpacing(_ alignment: Alignment) -> some View {
+        self
+            .frame(maxHeight: .infinity, alignment: alignment)
+    }
+    
+    //Checking Two dates are same
+    func isSameDate(_ date1: Date, _ date2: Date) -> Bool {
+        return Calendar.current.isDate(date1, inSameDayAs: date2)
+    }
 }

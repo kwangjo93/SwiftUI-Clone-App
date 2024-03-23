@@ -14,5 +14,5 @@ struct Search: View {
 }
 
 #Preview {
-    Search()
+    MainExpenseTrackerApp()
 }

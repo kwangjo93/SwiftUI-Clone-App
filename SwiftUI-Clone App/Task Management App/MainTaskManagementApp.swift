@@ -9,7 +9,10 @@ import SwiftUI
 
 struct MainTaskManagementApp: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TaskHome()
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(.bar)
+            .preferredColorScheme(.light)
     }
 }
 

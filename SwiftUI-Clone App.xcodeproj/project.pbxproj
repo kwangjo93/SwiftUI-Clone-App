@@ -22,6 +22,42 @@
 		F918019B2BABC620007A4463 /* BottomSheetHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F918019A2BABC620007A4463 /* BottomSheetHelper.swift */; };
 		F918019E2BAC0567007A4463 /* StretchSliderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F918019D2BAC0567007A4463 /* StretchSliderApp.swift */; };
 		F91801A02BAC05CD007A4463 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F918019F2BAC05CD007A4463 /* CustomSlider.swift */; };
+		F91801A52BAC5B8C007A4463 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91801A42BAC5B8C007A4463 /* Todo.swift */; };
+		F91801A82BAC5CA8007A4463 /* TodoHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91801A72BAC5CA8007A4463 /* TodoHome.swift */; };
+		F91801AA2BAC5CDD007A4463 /* MainTodoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91801A92BAC5CDD007A4463 /* MainTodoApp.swift */; };
+		F91801AC2BAC5FF1007A4463 /* CompletedTodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91801AB2BAC5FF1007A4463 /* CompletedTodoList.swift */; };
+		F91801AE2BAC630A007A4463 /* TodoRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91801AD2BAC6309007A4463 /* TodoRowView.swift */; };
+		F91801B62BAC710B007A4463 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91801B52BAC710B007A4463 /* WidgetKit.framework */; };
+		F91801B82BAC710B007A4463 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91801B72BAC710B007A4463 /* SwiftUI.framework */; };
+		F91801BB2BAC710B007A4463 /* TodoListBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91801BA2BAC710B007A4463 /* TodoListBundle.swift */; };
+		F91801BD2BAC710B007A4463 /* TodoListLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91801BC2BAC710B007A4463 /* TodoListLiveActivity.swift */; };
+		F91801BF2BAC710B007A4463 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91801BE2BAC710B007A4463 /* TodoList.swift */; };
+		F91801C12BAC710B007A4463 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91801C02BAC710B007A4463 /* AppIntent.swift */; };
+		F91801C32BAC710C007A4463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F91801C22BAC710C007A4463 /* Assets.xcassets */; };
+		F91801C72BAC710C007A4463 /* TodoListExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F91801B32BAC710B007A4463 /* TodoListExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F91801CC2BAC7133007A4463 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91801A42BAC5B8C007A4463 /* Todo.swift */; };
+		F91801D12BAD53C2007A4463 /* MainTaskManagementApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91801D02BAD53C2007A4463 /* MainTaskManagementApp.swift */; };
+		F91801D42BAD54D9007A4463 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91801D32BAD54D9007A4463 /* Task.swift */; };
+		F91801D72BAD56C0007A4463 /* View + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91801D62BAD56C0007A4463 /* View + Extension.swift */; };
+		F91801D92BAD56CD007A4463 /* Date + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91801D82BAD56CD007A4463 /* Date + Extension.swift */; };
+		F91801DC2BAD576B007A4463 /* TaskHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91801DB2BAD576B007A4463 /* TaskHome.swift */; };
+		F98D65222BAD6D1F00EC7A4F /* IntroScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98D65212BAD6D1F00EC7A4F /* IntroScreen.swift */; };
+		F98D65252BAD753300EC7A4F /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98D65242BAD753300EC7A4F /* Constans.swift */; };
+		F98D65272BAD78F300EC7A4F /* ExpenseTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98D65262BAD78F300EC7A4F /* ExpenseTab.swift */; };
+		F98D65292BAD7F5200EC7A4F /* MainExpenseTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98D65282BAD7F5200EC7A4F /* MainExpenseTrackerApp.swift */; };
+		F98D652B2BAD822600EC7A4F /* ExpenseCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98D652A2BAD822600EC7A4F /* ExpenseCategory.swift */; };
+		F98D652D2BAD824400EC7A4F /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98D652C2BAD824400EC7A4F /* Transaction.swift */; };
+		F98D652F2BAD82A800EC7A4F /* TintColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98D652E2BAD82A800EC7A4F /* TintColor.swift */; };
+		F98D65322BAD838C00EC7A4F /* Recents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98D65312BAD838C00EC7A4F /* Recents.swift */; };
+		F98D65342BAD839000EC7A4F /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98D65332BAD839000EC7A4F /* Search.swift */; };
+		F98D65362BAD839A00EC7A4F /* Graphs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98D65352BAD839A00EC7A4F /* Graphs.swift */; };
+		F98D65382BAD839D00EC7A4F /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98D65372BAD839D00EC7A4F /* Settings.swift */; };
+		F98D653A2BAD84C200EC7A4F /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98D65392BAD84C200EC7A4F /* View+Extensions.swift */; };
+		F98D653C2BADAEF700EC7A4F /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98D653B2BADAEF700EC7A4F /* Date+Extensions.swift */; };
+		F98D653F2BADB08100EC7A4F /* CardViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98D653E2BADB08100EC7A4F /* CardViews.swift */; };
+		F98D65412BADB6D600EC7A4F /* TransactionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98D65402BADB6D600EC7A4F /* TransactionCardView.swift */; };
+		F98D65432BADCE3700EC7A4F /* DateFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98D65422BADCE3700EC7A4F /* DateFilterView.swift */; };
+		F98D65452BADD20400EC7A4F /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98D65442BADD20400EC7A4F /* LockView.swift */; };
 		F99CB3C12B9EBDEA000D7671 /* SwiftUI_Clone_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB3C02B9EBDEA000D7671 /* SwiftUI_Clone_AppApp.swift */; };
 		F99CB3C32B9EBDEA000D7671 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB3C22B9EBDEA000D7671 /* ContentView.swift */; };
 		F99CB3C52B9EBDEB000D7671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F99CB3C42B9EBDEB000D7671 /* Assets.xcassets */; };
@@ -59,6 +95,30 @@
 		F99CB4382BAAA7B8000D7671 /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB4372BAAA7B8000D7671 /* CustomVideoPlayer.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F91801C52BAC710C007A4463 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F99CB3B52B9EBDEA000D7671 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F91801B22BAC710B007A4463;
+			remoteInfo = TodoListExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F91801CB2BAC710C007A4463 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F91801C72BAC710C007A4463 /* TodoListExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		F91801782BAABF55007A4463 /* WheelPickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelPickerApp.swift; sourceTree = "<group>"; };
 		F918017A2BAABF7C007A4463 /* WheelPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelPicker.swift; sourceTree = "<group>"; };
@@ -75,6 +135,44 @@
 		F918019A2BABC620007A4463 /* BottomSheetHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetHelper.swift; sourceTree = "<group>"; };
 		F918019D2BAC0567007A4463 /* StretchSliderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchSliderApp.swift; sourceTree = "<group>"; };
 		F918019F2BAC05CD007A4463 /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
+		F91801A42BAC5B8C007A4463 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		F91801A72BAC5CA8007A4463 /* TodoHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoHome.swift; sourceTree = "<group>"; };
+		F91801A92BAC5CDD007A4463 /* MainTodoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTodoApp.swift; sourceTree = "<group>"; };
+		F91801AB2BAC5FF1007A4463 /* CompletedTodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedTodoList.swift; sourceTree = "<group>"; };
+		F91801AD2BAC6309007A4463 /* TodoRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoRowView.swift; sourceTree = "<group>"; };
+		F91801B32BAC710B007A4463 /* TodoListExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TodoListExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F91801B52BAC710B007A4463 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		F91801B72BAC710B007A4463 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		F91801BA2BAC710B007A4463 /* TodoListBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListBundle.swift; sourceTree = "<group>"; };
+		F91801BC2BAC710B007A4463 /* TodoListLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListLiveActivity.swift; sourceTree = "<group>"; };
+		F91801BE2BAC710B007A4463 /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
+		F91801C02BAC710B007A4463 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		F91801C22BAC710C007A4463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F91801C42BAC710C007A4463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F91801CD2BAC7A52007A4463 /* SwiftUI-Clone App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SwiftUI-Clone App.entitlements"; sourceTree = "<group>"; };
+		F91801CE2BAC7A86007A4463 /* TodoListExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TodoListExtension.entitlements; sourceTree = "<group>"; };
+		F91801D02BAD53C2007A4463 /* MainTaskManagementApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTaskManagementApp.swift; sourceTree = "<group>"; };
+		F91801D32BAD54D9007A4463 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		F91801D62BAD56C0007A4463 /* View + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + Extension.swift"; sourceTree = "<group>"; };
+		F91801D82BAD56CD007A4463 /* Date + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + Extension.swift"; sourceTree = "<group>"; };
+		F91801DB2BAD576B007A4463 /* TaskHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskHome.swift; sourceTree = "<group>"; };
+		F98D65212BAD6D1F00EC7A4F /* IntroScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreen.swift; sourceTree = "<group>"; };
+		F98D65242BAD753300EC7A4F /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
+		F98D65262BAD78F300EC7A4F /* ExpenseTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTab.swift; sourceTree = "<group>"; };
+		F98D65282BAD7F5200EC7A4F /* MainExpenseTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainExpenseTrackerApp.swift; sourceTree = "<group>"; };
+		F98D652A2BAD822600EC7A4F /* ExpenseCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCategory.swift; sourceTree = "<group>"; };
+		F98D652C2BAD824400EC7A4F /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		F98D652E2BAD82A800EC7A4F /* TintColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TintColor.swift; sourceTree = "<group>"; };
+		F98D65312BAD838C00EC7A4F /* Recents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recents.swift; sourceTree = "<group>"; };
+		F98D65332BAD839000EC7A4F /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		F98D65352BAD839A00EC7A4F /* Graphs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphs.swift; sourceTree = "<group>"; };
+		F98D65372BAD839D00EC7A4F /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		F98D65392BAD84C200EC7A4F /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		F98D653B2BADAEF700EC7A4F /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		F98D653E2BADB08100EC7A4F /* CardViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViews.swift; sourceTree = "<group>"; };
+		F98D65402BADB6D600EC7A4F /* TransactionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCardView.swift; sourceTree = "<group>"; };
+		F98D65422BADCE3700EC7A4F /* DateFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFilterView.swift; sourceTree = "<group>"; };
+		F98D65442BADD20400EC7A4F /* LockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockView.swift; sourceTree = "<group>"; };
 		F99CB3BD2B9EBDEA000D7671 /* SwiftUI-Clone App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Clone App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F99CB3C02B9EBDEA000D7671 /* SwiftUI_Clone_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Clone_AppApp.swift; sourceTree = "<group>"; };
 		F99CB3C22B9EBDEA000D7671 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -114,6 +212,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F91801B02BAC710B007A4463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F91801B82BAC710B007A4463 /* SwiftUI.framework in Frameworks */,
+				F91801B62BAC710B007A4463 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F99CB3BA2B9EBDEA000D7671 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -222,10 +329,163 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		F91801A22BAC5B67007A4463 /* SwiftDataTodo */ = {
+			isa = PBXGroup;
+			children = (
+				F91801A92BAC5CDD007A4463 /* MainTodoApp.swift */,
+				F91801A62BAC5C9B007A4463 /* View */,
+				F91801A32BAC5B87007A4463 /* Model */,
+			);
+			path = SwiftDataTodo;
+			sourceTree = "<group>";
+		};
+		F91801A32BAC5B87007A4463 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F91801A42BAC5B8C007A4463 /* Todo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F91801A62BAC5C9B007A4463 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F91801A72BAC5CA8007A4463 /* TodoHome.swift */,
+				F91801AB2BAC5FF1007A4463 /* CompletedTodoList.swift */,
+				F91801AD2BAC6309007A4463 /* TodoRowView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F91801B42BAC710B007A4463 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F91801B52BAC710B007A4463 /* WidgetKit.framework */,
+				F91801B72BAC710B007A4463 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F91801B92BAC710B007A4463 /* TodoList */ = {
+			isa = PBXGroup;
+			children = (
+				F91801BE2BAC710B007A4463 /* TodoList.swift */,
+				F91801BA2BAC710B007A4463 /* TodoListBundle.swift */,
+				F91801BC2BAC710B007A4463 /* TodoListLiveActivity.swift */,
+				F91801C02BAC710B007A4463 /* AppIntent.swift */,
+				F91801C22BAC710C007A4463 /* Assets.xcassets */,
+				F91801C42BAC710C007A4463 /* Info.plist */,
+			);
+			path = TodoList;
+			sourceTree = "<group>";
+		};
+		F91801CF2BAD53AB007A4463 /* Task Management App */ = {
+			isa = PBXGroup;
+			children = (
+				F91801D02BAD53C2007A4463 /* MainTaskManagementApp.swift */,
+				F91801DA2BAD5756007A4463 /* View */,
+				F91801D52BAD56AE007A4463 /* Helper */,
+				F91801D22BAD54B2007A4463 /* Model */,
+			);
+			path = "Task Management App";
+			sourceTree = "<group>";
+		};
+		F91801D22BAD54B2007A4463 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F91801D32BAD54D9007A4463 /* Task.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F91801D52BAD56AE007A4463 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F91801D62BAD56C0007A4463 /* View + Extension.swift */,
+				F91801D82BAD56CD007A4463 /* Date + Extension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		F91801DA2BAD5756007A4463 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F91801DB2BAD576B007A4463 /* TaskHome.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F98D651E2BAD6CD700EC7A4F /* ExpenseTrackerApp */ = {
+			isa = PBXGroup;
+			children = (
+				F98D65282BAD7F5200EC7A4F /* MainExpenseTrackerApp.swift */,
+				F98D65232BAD752600EC7A4F /* Helpers */,
+				F98D65202BAD6D0D00EC7A4F /* Model */,
+				F98D651F2BAD6D0500EC7A4F /* View */,
+			);
+			path = ExpenseTrackerApp;
+			sourceTree = "<group>";
+		};
+		F98D651F2BAD6D0500EC7A4F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F98D65212BAD6D1F00EC7A4F /* IntroScreen.swift */,
+				F98D653D2BADB07300EC7A4F /* Helpers */,
+				F98D65302BAD837500EC7A4F /* TabViews */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F98D65202BAD6D0D00EC7A4F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F98D65262BAD78F300EC7A4F /* ExpenseTab.swift */,
+				F98D652A2BAD822600EC7A4F /* ExpenseCategory.swift */,
+				F98D652C2BAD824400EC7A4F /* Transaction.swift */,
+				F98D652E2BAD82A800EC7A4F /* TintColor.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F98D65232BAD752600EC7A4F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F98D65242BAD753300EC7A4F /* Constans.swift */,
+				F98D65392BAD84C200EC7A4F /* View+Extensions.swift */,
+				F98D653B2BADAEF700EC7A4F /* Date+Extensions.swift */,
+				F98D65442BADD20400EC7A4F /* LockView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F98D65302BAD837500EC7A4F /* TabViews */ = {
+			isa = PBXGroup;
+			children = (
+				F98D65312BAD838C00EC7A4F /* Recents.swift */,
+				F98D65332BAD839000EC7A4F /* Search.swift */,
+				F98D65352BAD839A00EC7A4F /* Graphs.swift */,
+				F98D65372BAD839D00EC7A4F /* Settings.swift */,
+			);
+			path = TabViews;
+			sourceTree = "<group>";
+		};
+		F98D653D2BADB07300EC7A4F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F98D653E2BADB08100EC7A4F /* CardViews.swift */,
+				F98D65402BADB6D600EC7A4F /* TransactionCardView.swift */,
+				F98D65422BADCE3700EC7A4F /* DateFilterView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		F99CB3B42B9EBDEA000D7671 = {
 			isa = PBXGroup;
 			children = (
+				F91801CE2BAC7A86007A4463 /* TodoListExtension.entitlements */,
 				F99CB3BF2B9EBDEA000D7671 /* SwiftUI-Clone App */,
+				F91801B92BAC710B007A4463 /* TodoList */,
+				F91801B42BAC710B007A4463 /* Frameworks */,
 				F99CB3BE2B9EBDEA000D7671 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -234,6 +494,7 @@
 			isa = PBXGroup;
 			children = (
 				F99CB3BD2B9EBDEA000D7671 /* SwiftUI-Clone App.app */,
+				F91801B32BAC710B007A4463 /* TodoListExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -241,6 +502,7 @@
 		F99CB3BF2B9EBDEA000D7671 /* SwiftUI-Clone App */ = {
 			isa = PBXGroup;
 			children = (
+				F91801CD2BAC7A52007A4463 /* SwiftUI-Clone App.entitlements */,
 				F99CB3C42B9EBDEB000D7671 /* Assets.xcassets */,
 				F99CB3C62B9EBDEB000D7671 /* Preview Content */,
 				F99CB3CE2B9EBE52000D7671 /* App */,
@@ -250,7 +512,10 @@
 				F91801772BAABF38007A4463 /* WhellPickerApp */,
 				F91801842BAB13E4007A4463 /* ComplexUI */,
 				F91801932BABC168007A4463 /* AppleMapBottomSheet */,
+				F91801A22BAC5B67007A4463 /* SwiftDataTodo */,
+				F91801CF2BAD53AB007A4463 /* Task Management App */,
 				F918019C2BAC04C5007A4463 /* StretchySlider */,
+				F98D651E2BAD6CD700EC7A4F /* ExpenseTrackerApp */,
 			);
 			path = "SwiftUI-Clone App";
 			sourceTree = "<group>";
@@ -633,6 +898,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F91801B22BAC710B007A4463 /* TodoListExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F91801C82BAC710C007A4463 /* Build configuration list for PBXNativeTarget "TodoListExtension" */;
+			buildPhases = (
+				F91801AF2BAC710B007A4463 /* Sources */,
+				F91801B02BAC710B007A4463 /* Frameworks */,
+				F91801B12BAC710B007A4463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TodoListExtension;
+			productName = TodoListExtension;
+			productReference = F91801B32BAC710B007A4463 /* TodoListExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		F99CB3BC2B9EBDEA000D7671 /* SwiftUI-Clone App */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F99CB3CB2B9EBDEB000D7671 /* Build configuration list for PBXNativeTarget "SwiftUI-Clone App" */;
@@ -640,10 +922,12 @@
 				F99CB3B92B9EBDEA000D7671 /* Sources */,
 				F99CB3BA2B9EBDEA000D7671 /* Frameworks */,
 				F99CB3BB2B9EBDEA000D7671 /* Resources */,
+				F91801CB2BAC710C007A4463 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F91801C62BAC710C007A4463 /* PBXTargetDependency */,
 			);
 			name = "SwiftUI-Clone App";
 			productName = "SwiftUI-Clone App";
@@ -660,6 +944,9 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
+					F91801B22BAC710B007A4463 = {
+						CreatedOnToolsVersion = 15.3;
+					};
 					F99CB3BC2B9EBDEA000D7671 = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -679,11 +966,20 @@
 			projectRoot = "";
 			targets = (
 				F99CB3BC2B9EBDEA000D7671 /* SwiftUI-Clone App */,
+				F91801B22BAC710B007A4463 /* TodoListExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F91801B12BAC710B007A4463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F91801C32BAC710C007A4463 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F99CB3BB2B9EBDEA000D7671 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -696,28 +992,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F91801AF2BAC710B007A4463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F91801BF2BAC710B007A4463 /* TodoList.swift in Sources */,
+				F91801C12BAC710B007A4463 /* AppIntent.swift in Sources */,
+				F91801BD2BAC710B007A4463 /* TodoListLiveActivity.swift in Sources */,
+				F91801BB2BAC710B007A4463 /* TodoListBundle.swift in Sources */,
+				F91801CC2BAC7133007A4463 /* Todo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F99CB3B92B9EBDEA000D7671 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F99CB3E62BA02AE3000D7671 /* ListingDetailView.swift in Sources */,
+				F98D65342BAD839000EC7A4F /* Search.swift in Sources */,
+				F91801AA2BAC5CDD007A4463 /* MainTodoApp.swift in Sources */,
+				F98D65252BAD753300EC7A4F /* Constans.swift in Sources */,
 				F99CB3EF2BA2C45A000D7671 /* ProfileOptionRowView.swift in Sources */,
+				F91801A82BAC5CA8007A4463 /* TodoHome.swift in Sources */,
 				F99CB3D72B9ED363000D7671 /* Airbnb.swift in Sources */,
 				F91801792BAABF55007A4463 /* WheelPickerApp.swift in Sources */,
+				F98D65452BADD20400EC7A4F /* LockView.swift in Sources */,
+				F91801D12BAD53C2007A4463 /* MainTaskManagementApp.swift in Sources */,
 				F99CB4002BA2D9AE000D7671 /* ExploreService.swift in Sources */,
 				F91801882BAB142C007A4463 /* YouTubeTab.swift in Sources */,
 				F99CB4252BAA829E000D7671 /* NotificationCell.swift in Sources */,
+				F91801AC2BAC5FF1007A4463 /* CompletedTodoList.swift in Sources */,
 				F99CB3F12BA2C520000D7671 /* WishlistsView.swift in Sources */,
 				F99CB3ED2BA2C322000D7671 /* ProfileView.swift in Sources */,
 				F99CB3F92BA2D062000D7671 /* DeveloperPreview.swift in Sources */,
 				F99CB4272BAA84AB000D7671 /* CurrentUserProfileView.swift in Sources */,
+				F91801DC2BAD576B007A4463 /* TaskHome.swift in Sources */,
 				F99CB41F2BAA7DAF000D7671 /* ExploreTicView.swift in Sources */,
+				F91801AE2BAC630A007A4463 /* TodoRowView.swift in Sources */,
 				F91801832BAAD0D1007A4463 /* CardContentView.swift in Sources */,
+				F98D652B2BAD822600EC7A4F /* ExpenseCategory.swift in Sources */,
 				F99CB4212BAA7DD3000D7671 /* UserCell.swift in Sources */,
 				F918018A2BAB14B0007A4463 /* YouTubeHome.swift in Sources */,
 				F99CB4292BAA84D8000D7671 /* ProfileHeaderView.swift in Sources */,
 				F99CB41B2BAA7640000D7671 /* FeedView.swift in Sources */,
 				F918018C2BAB159C007A4463 /* YouTubeApp.swift in Sources */,
+				F98D65272BAD78F300EC7A4F /* ExpenseTab.swift in Sources */,
 				F918018E2BAB19AE007A4463 /* PlayerItem.swift in Sources */,
 				F99CB3E42BA01F6E000D7671 /* SearchAndFilterBar.swift in Sources */,
 				F99CB4362BAAA452000D7671 /* FeedViewModel.swift in Sources */,
@@ -728,32 +1047,112 @@
 				F99CB3F72BA2C989000D7671 /* Listing.swift in Sources */,
 				F99CB3C32B9EBDEA000D7671 /* ContentView.swift in Sources */,
 				F918017B2BAABF7C007A4463 /* WheelPicker.swift in Sources */,
+				F98D653A2BAD84C200EC7A4F /* View+Extensions.swift in Sources */,
 				F99CB3EB2BA165FA000D7671 /* DestinationSearchView.swift in Sources */,
+				F98D65432BADCE3700EC7A4F /* DateFilterView.swift in Sources */,
+				F98D65222BAD6D1F00EC7A4F /* IntroScreen.swift in Sources */,
+				F98D65362BAD839A00EC7A4F /* Graphs.swift in Sources */,
 				F99CB4312BAAA3EA000D7671 /* Post.swift in Sources */,
 				F99CB4232BAA8295000D7671 /* NotificationsView.swift in Sources */,
 				F91801992BABC291007A4463 /* AppleMapContentView.swift in Sources */,
+				F98D653C2BADAEF700EC7A4F /* Date+Extensions.swift in Sources */,
+				F91801D42BAD54D9007A4463 /* Task.swift in Sources */,
+				F91801D92BAD56CD007A4463 /* Date + Extension.swift in Sources */,
 				F99CB40D2BAA7113000D7671 /* TikTokApp.swift in Sources */,
 				F99CB41D2BAA7770000D7671 /* FeedCell.swift in Sources */,
 				F918019E2BAC0567007A4463 /* StretchSliderApp.swift in Sources */,
+				F91801A52BAC5B8C007A4463 /* Todo.swift in Sources */,
+				F98D652F2BAD82A800EC7A4F /* TintColor.swift in Sources */,
 				F99CB42B2BAA84E4000D7671 /* PostGridView.swift in Sources */,
 				F91801812BAAD034007A4463 /* CardItem.swift in Sources */,
+				F98D652D2BAD824400EC7A4F /* Transaction.swift in Sources */,
+				F98D65382BAD839D00EC7A4F /* Settings.swift in Sources */,
+				F91801D72BAD56C0007A4463 /* View + Extension.swift in Sources */,
+				F98D653F2BADB08100EC7A4F /* CardViews.swift in Sources */,
+				F98D65412BADB6D600EC7A4F /* TransactionCardView.swift in Sources */,
 				F91801902BAB1D26007A4463 /* PlayerConfig.swift in Sources */,
 				F99CB4382BAAA7B8000D7671 /* CustomVideoPlayer.swift in Sources */,
 				F918019B2BABC620007A4463 /* BottomSheetHelper.swift in Sources */,
 				F99CB4022BA2E2E2000D7671 /* Regions.swift in Sources */,
+				F98D65292BAD7F5200EC7A4F /* MainExpenseTrackerApp.swift in Sources */,
 				F99CB3FE2BA2D97D000D7671 /* ExploreViewModel.swift in Sources */,
 				F99CB3E02B9ED483000D7671 /* ExploreView.swift in Sources */,
 				F91801A02BAC05CD007A4463 /* CustomSlider.swift in Sources */,
 				F99CB3C12B9EBDEA000D7671 /* SwiftUI_Clone_AppApp.swift in Sources */,
 				F99CB3E92BA02E3D000D7671 /* ListingImageCarouselView.swift in Sources */,
 				F99CB4192BAA7204000D7671 /* TicTabView.swift in Sources */,
+				F98D65322BAD838C00EC7A4F /* Recents.swift in Sources */,
 				F91801952BABC1EF007A4463 /* AppleMapTab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		F91801C62BAC710C007A4463 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F91801B22BAC710B007A4463 /* TodoListExtension */;
+			targetProxy = F91801C52BAC710C007A4463 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		F91801C92BAC710C007A4463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = TodoListExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52TADTDD5Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TodoList/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TodoList;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwangjo93.SwiftUI-Clone-App.TodoList";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F91801CA2BAC710C007A4463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = TodoListExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52TADTDD5Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TodoList/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TodoList;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwangjo93.SwiftUI-Clone-App.TodoList";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		F99CB3C92B9EBDEB000D7671 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -876,8 +1275,10 @@
 		F99CB3CC2B9EBDEB000D7671 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SwiftUI-Clone App/SwiftUI-Clone App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Clone App/Preview Content\"";
@@ -909,8 +1310,10 @@
 		F99CB3CD2B9EBDEB000D7671 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SwiftUI-Clone App/SwiftUI-Clone App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Clone App/Preview Content\"";
@@ -942,6 +1345,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F91801C82BAC710C007A4463 /* Build configuration list for PBXNativeTarget "TodoListExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F91801C92BAC710C007A4463 /* Debug */,
+				F91801CA2BAC710C007A4463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F99CB3B82B9EBDEA000D7671 /* Build configuration list for PBXProject "SwiftUI-Clone App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

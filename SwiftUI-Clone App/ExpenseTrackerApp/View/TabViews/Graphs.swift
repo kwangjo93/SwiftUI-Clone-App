@@ -14,5 +14,5 @@ struct Graphs: View {
 }
 
 #Preview {
-    Graphs()
+    MainExpenseTrackerApp()
 }

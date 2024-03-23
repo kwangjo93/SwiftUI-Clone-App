@@ -9,7 +9,11 @@ import SwiftUI
 
 struct MainTodoApp: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            TodoHome()
+                .navigationTitle("Todo List")
+        }
+        .modelContainer(for: Todo.self)
     }
 }
 
