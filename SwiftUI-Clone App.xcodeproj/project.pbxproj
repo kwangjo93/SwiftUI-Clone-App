@@ -41,6 +41,13 @@
 		F91801D72BAD56C0007A4463 /* View + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91801D62BAD56C0007A4463 /* View + Extension.swift */; };
 		F91801D92BAD56CD007A4463 /* Date + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91801D82BAD56CD007A4463 /* Date + Extension.swift */; };
 		F91801DC2BAD576B007A4463 /* TaskHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91801DB2BAD576B007A4463 /* TaskHome.swift */; };
+		F950A7802BB5012300B3B132 /* MainScrollAniView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F950A77F2BB5012300B3B132 /* MainScrollAniView.swift */; };
+		F950A7832BB5013700B3B132 /* ScrollExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = F950A7822BB5013700B3B132 /* ScrollExpense.swift */; };
+		F950A7862BB502BF00B3B132 /* ScrollHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F950A7852BB502BF00B3B132 /* ScrollHome.swift */; };
+		F950A7882BB5060B00B3B132 /* ScrollCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F950A7872BB5060B00B3B132 /* ScrollCard.swift */; };
+		F96C43A82BB7C2BD001D9678 /* MainCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96C43A72BB7C2BD001D9678 /* MainCarouselView.swift */; };
+		F96C43AB2BB7C2D7001D9678 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96C43AA2BB7C2D7001D9678 /* CarouselView.swift */; };
+		F96C43AD2BB7C2EB001D9678 /* CarouselViewChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96C43AC2BB7C2EB001D9678 /* CarouselViewChild.swift */; };
 		F98D65222BAD6D1F00EC7A4F /* IntroScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98D65212BAD6D1F00EC7A4F /* IntroScreen.swift */; };
 		F98D65252BAD753300EC7A4F /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98D65242BAD753300EC7A4F /* Constans.swift */; };
 		F98D65272BAD78F300EC7A4F /* ExpenseTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98D65262BAD78F300EC7A4F /* ExpenseTab.swift */; };
@@ -58,6 +65,8 @@
 		F98D65412BADB6D600EC7A4F /* TransactionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98D65402BADB6D600EC7A4F /* TransactionCardView.swift */; };
 		F98D65432BADCE3700EC7A4F /* DateFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98D65422BADCE3700EC7A4F /* DateFilterView.swift */; };
 		F98D65452BADD20400EC7A4F /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98D65442BADD20400EC7A4F /* LockView.swift */; };
+		F98D654B2BB0FBDD00EC7A4F /* MainTagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98D654A2BB0FBDD00EC7A4F /* MainTagsView.swift */; };
+		F98D654D2BB1004200EC7A4F /* TagLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98D654C2BB1004200EC7A4F /* TagLayout.swift */; };
 		F99CB3C12B9EBDEA000D7671 /* SwiftUI_Clone_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB3C02B9EBDEA000D7671 /* SwiftUI_Clone_AppApp.swift */; };
 		F99CB3C32B9EBDEA000D7671 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99CB3C22B9EBDEA000D7671 /* ContentView.swift */; };
 		F99CB3C52B9EBDEB000D7671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F99CB3C42B9EBDEB000D7671 /* Assets.xcassets */; };
@@ -156,6 +165,13 @@
 		F91801D62BAD56C0007A4463 /* View + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + Extension.swift"; sourceTree = "<group>"; };
 		F91801D82BAD56CD007A4463 /* Date + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + Extension.swift"; sourceTree = "<group>"; };
 		F91801DB2BAD576B007A4463 /* TaskHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskHome.swift; sourceTree = "<group>"; };
+		F950A77F2BB5012300B3B132 /* MainScrollAniView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScrollAniView.swift; sourceTree = "<group>"; };
+		F950A7822BB5013700B3B132 /* ScrollExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollExpense.swift; sourceTree = "<group>"; };
+		F950A7852BB502BF00B3B132 /* ScrollHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollHome.swift; sourceTree = "<group>"; };
+		F950A7872BB5060B00B3B132 /* ScrollCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollCard.swift; sourceTree = "<group>"; };
+		F96C43A72BB7C2BD001D9678 /* MainCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCarouselView.swift; sourceTree = "<group>"; };
+		F96C43AA2BB7C2D7001D9678 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		F96C43AC2BB7C2EB001D9678 /* CarouselViewChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselViewChild.swift; sourceTree = "<group>"; };
 		F98D65212BAD6D1F00EC7A4F /* IntroScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreen.swift; sourceTree = "<group>"; };
 		F98D65242BAD753300EC7A4F /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
 		F98D65262BAD78F300EC7A4F /* ExpenseTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTab.swift; sourceTree = "<group>"; };
@@ -173,6 +189,8 @@
 		F98D65402BADB6D600EC7A4F /* TransactionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCardView.swift; sourceTree = "<group>"; };
 		F98D65422BADCE3700EC7A4F /* DateFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFilterView.swift; sourceTree = "<group>"; };
 		F98D65442BADD20400EC7A4F /* LockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockView.swift; sourceTree = "<group>"; };
+		F98D654A2BB0FBDD00EC7A4F /* MainTagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTagsView.swift; sourceTree = "<group>"; };
+		F98D654C2BB1004200EC7A4F /* TagLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagLayout.swift; sourceTree = "<group>"; };
 		F99CB3BD2B9EBDEA000D7671 /* SwiftUI-Clone App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Clone App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F99CB3C02B9EBDEA000D7671 /* SwiftUI_Clone_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Clone_AppApp.swift; sourceTree = "<group>"; };
 		F99CB3C22B9EBDEA000D7671 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -243,8 +261,8 @@
 		F918017E2BAACFD4007A4463 /* StackCard */ = {
 			isa = PBXGroup;
 			children = (
-				F918017F2BAAD02B007A4463 /* Model */,
 				F91801822BAAD0D1007A4463 /* CardContentView.swift */,
+				F918017F2BAAD02B007A4463 /* Model */,
 			);
 			path = StackCard;
 			sourceTree = "<group>";
@@ -312,13 +330,13 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		F918019C2BAC04C5007A4463 /* StretchySlider */ = {
+		F918019C2BAC04C5007A4463 /* StretchSliderApp */ = {
 			isa = PBXGroup;
 			children = (
 				F918019D2BAC0567007A4463 /* StretchSliderApp.swift */,
 				F91801A12BAC05CF007A4463 /* View */,
 			);
-			path = StretchySlider;
+			path = StretchSliderApp;
 			sourceTree = "<group>";
 		};
 		F91801A12BAC05CF007A4463 /* View */ = {
@@ -415,6 +433,51 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		F950A77E2BB500E400B3B132 /* ScrollAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				F950A77F2BB5012300B3B132 /* MainScrollAniView.swift */,
+				F950A7842BB502B600B3B132 /* View */,
+				F950A7812BB5012600B3B132 /* Model */,
+			);
+			path = ScrollAnimation;
+			sourceTree = "<group>";
+		};
+		F950A7812BB5012600B3B132 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F950A7822BB5013700B3B132 /* ScrollExpense.swift */,
+				F950A7872BB5060B00B3B132 /* ScrollCard.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F950A7842BB502B600B3B132 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F950A7852BB502BF00B3B132 /* ScrollHome.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F96C43A42BB7C28E001D9678 /* CarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				F96C43A72BB7C2BD001D9678 /* MainCarouselView.swift */,
+				F96C43A92BB7C2CB001D9678 /* View */,
+			);
+			path = CarouselView;
+			sourceTree = "<group>";
+		};
+		F96C43A92BB7C2CB001D9678 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F96C43AA2BB7C2D7001D9678 /* CarouselView.swift */,
+				F96C43AC2BB7C2EB001D9678 /* CarouselViewChild.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		F98D651E2BAD6CD700EC7A4F /* ExpenseTrackerApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -479,6 +542,23 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		F98D65462BB0FA2800EC7A4F /* Tags View */ = {
+			isa = PBXGroup;
+			children = (
+				F98D654A2BB0FBDD00EC7A4F /* MainTagsView.swift */,
+				F98D65472BB0FA4200EC7A4F /* Layouts */,
+			);
+			path = "Tags View";
+			sourceTree = "<group>";
+		};
+		F98D65472BB0FA4200EC7A4F /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				F98D654C2BB1004200EC7A4F /* TagLayout.swift */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
 		F99CB3B42B9EBDEA000D7671 = {
 			isa = PBXGroup;
 			children = (
@@ -514,7 +594,10 @@
 				F91801932BABC168007A4463 /* AppleMapBottomSheet */,
 				F91801A22BAC5B67007A4463 /* SwiftDataTodo */,
 				F91801CF2BAD53AB007A4463 /* Task Management App */,
-				F918019C2BAC04C5007A4463 /* StretchySlider */,
+				F918019C2BAC04C5007A4463 /* StretchSliderApp */,
+				F98D65462BB0FA2800EC7A4F /* Tags View */,
+				F950A77E2BB500E400B3B132 /* ScrollAnimation */,
+				F96C43A42BB7C28E001D9678 /* CarouselView */,
 				F98D651E2BAD6CD700EC7A4F /* ExpenseTrackerApp */,
 			);
 			path = "SwiftUI-Clone App";
@@ -1014,6 +1097,7 @@
 				F98D65252BAD753300EC7A4F /* Constans.swift in Sources */,
 				F99CB3EF2BA2C45A000D7671 /* ProfileOptionRowView.swift in Sources */,
 				F91801A82BAC5CA8007A4463 /* TodoHome.swift in Sources */,
+				F950A7832BB5013700B3B132 /* ScrollExpense.swift in Sources */,
 				F99CB3D72B9ED363000D7671 /* Airbnb.swift in Sources */,
 				F91801792BAABF55007A4463 /* WheelPickerApp.swift in Sources */,
 				F98D65452BADD20400EC7A4F /* LockView.swift in Sources */,
@@ -1031,10 +1115,12 @@
 				F91801AE2BAC630A007A4463 /* TodoRowView.swift in Sources */,
 				F91801832BAAD0D1007A4463 /* CardContentView.swift in Sources */,
 				F98D652B2BAD822600EC7A4F /* ExpenseCategory.swift in Sources */,
+				F98D654D2BB1004200EC7A4F /* TagLayout.swift in Sources */,
 				F99CB4212BAA7DD3000D7671 /* UserCell.swift in Sources */,
 				F918018A2BAB14B0007A4463 /* YouTubeHome.swift in Sources */,
 				F99CB4292BAA84D8000D7671 /* ProfileHeaderView.swift in Sources */,
 				F99CB41B2BAA7640000D7671 /* FeedView.swift in Sources */,
+				F96C43A82BB7C2BD001D9678 /* MainCarouselView.swift in Sources */,
 				F918018C2BAB159C007A4463 /* YouTubeApp.swift in Sources */,
 				F98D65272BAD78F300EC7A4F /* ExpenseTab.swift in Sources */,
 				F918018E2BAB19AE007A4463 /* PlayerItem.swift in Sources */,
@@ -1043,26 +1129,32 @@
 				F99CB42F2BAA86AF000D7671 /* UserStackView.swift in Sources */,
 				F99CB3E22B9ED58C000D7671 /* ListingItemView.swift in Sources */,
 				F91801922BAB1E4E007A4463 /* MiniPlayerView.swift in Sources */,
+				F950A7882BB5060B00B3B132 /* ScrollCard.swift in Sources */,
 				F99CB3F32BA2C64A000D7671 /* MainTabView.swift in Sources */,
 				F99CB3F72BA2C989000D7671 /* Listing.swift in Sources */,
 				F99CB3C32B9EBDEA000D7671 /* ContentView.swift in Sources */,
 				F918017B2BAABF7C007A4463 /* WheelPicker.swift in Sources */,
 				F98D653A2BAD84C200EC7A4F /* View+Extensions.swift in Sources */,
+				F98D654B2BB0FBDD00EC7A4F /* MainTagsView.swift in Sources */,
 				F99CB3EB2BA165FA000D7671 /* DestinationSearchView.swift in Sources */,
 				F98D65432BADCE3700EC7A4F /* DateFilterView.swift in Sources */,
 				F98D65222BAD6D1F00EC7A4F /* IntroScreen.swift in Sources */,
+				F96C43AB2BB7C2D7001D9678 /* CarouselView.swift in Sources */,
 				F98D65362BAD839A00EC7A4F /* Graphs.swift in Sources */,
 				F99CB4312BAAA3EA000D7671 /* Post.swift in Sources */,
 				F99CB4232BAA8295000D7671 /* NotificationsView.swift in Sources */,
 				F91801992BABC291007A4463 /* AppleMapContentView.swift in Sources */,
 				F98D653C2BADAEF700EC7A4F /* Date+Extensions.swift in Sources */,
+				F950A7862BB502BF00B3B132 /* ScrollHome.swift in Sources */,
 				F91801D42BAD54D9007A4463 /* Task.swift in Sources */,
 				F91801D92BAD56CD007A4463 /* Date + Extension.swift in Sources */,
 				F99CB40D2BAA7113000D7671 /* TikTokApp.swift in Sources */,
 				F99CB41D2BAA7770000D7671 /* FeedCell.swift in Sources */,
+				F96C43AD2BB7C2EB001D9678 /* CarouselViewChild.swift in Sources */,
 				F918019E2BAC0567007A4463 /* StretchSliderApp.swift in Sources */,
 				F91801A52BAC5B8C007A4463 /* Todo.swift in Sources */,
 				F98D652F2BAD82A800EC7A4F /* TintColor.swift in Sources */,
+				F950A7802BB5012300B3B132 /* MainScrollAniView.swift in Sources */,
 				F99CB42B2BAA84E4000D7671 /* PostGridView.swift in Sources */,
 				F91801812BAAD034007A4463 /* CardItem.swift in Sources */,
 				F98D652D2BAD824400EC7A4F /* Transaction.swift in Sources */,
